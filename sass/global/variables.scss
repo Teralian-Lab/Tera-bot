@@ -1,0 +1,18 @@
+$c-bluelight: #0084ff;
+$c-bluedark: #044684;
+$c-black: #080708;
+$c-red: #bb4430;
+$c-yellow: #fdca40;
+$c-green: #8acb88;
+$c-grey: #e6e8e6;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+$f-default: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;

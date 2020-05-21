@@ -2,6 +2,6 @@
 # This config is only used for the development server
 # No settings provided here will affect production builds
 
-url: http://localhost:3000
+url: http://localhost:3000/Tera-bot/index.html
 host: localhost
 port: 3000

@@ -1,0 +1,37 @@
+.product-header {
+    color: #ffffff;
+    background: linear-gradient(-135deg, $c-bluelight, $c-bluedark);
+}
+
+.product-header__wrap {
+
+    @include lg {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
+.product-header__headline {
+    margin-bottom: 1.4rem;
+
+    @include lg {
+        margin-bottom: 2.3rem;
+    }
+}
+
+.product-header__text {
+
+    p {
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 2;
+    }
+}
+
+.product-header__btn {
+    margin-top: 1.7rem;
+
+    @include lg {
+        margin-top: 2rem;
+    }
+}

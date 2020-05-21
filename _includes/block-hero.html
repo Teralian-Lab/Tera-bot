@@ -1,0 +1,10 @@
+<section class="hero">
+    <canvas id="hero__canvas" class="hero__canvas"></canvas>
+    <div class="hero__content">
+        <div class="hero__content-wrap">
+            <div class="hero__contentText">{{ section.headline }}</div>
+            <a href="{{ section.cta.url }}" class="btn btn--hero hero__contentBtn">{{ section.cta.button_text }}</a>
+        </div>
+    </div>
+    <img class="hero__img" src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" />
+</section>

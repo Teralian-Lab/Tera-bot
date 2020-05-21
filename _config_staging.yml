@@ -2,6 +2,6 @@
 # This config is only used for the development server
 # No settings provided here will affect production builds
 
-baseurl: ""
+baseurl: "/Tera-bot/index.html"
 host: 0.0.0.0
 port: 8080

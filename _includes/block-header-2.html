@@ -8,9 +8,21 @@
 
   <nav class="block-header-2--nav">
     <ul>
-        {% for nav_item in section.navigation %}
-        <li class="nav-item {% if page.url == nav_item.link %}active{% endif %}"><a href="{{ nav_item.link }}">{{ nav_item.link_text }}</a></li>
-        {% endfor %}
+      {% for nav_item in section.navigation %}
+        <li class="nav-item {% if page.url == nav_item.link %}active{% endif %}">
+          <a href="{{ nav_item.link }}">{{ nav_item.link_text }}</a>
+
+          {% if nav_item.subnavigation %}
+            <ul>
+            {% for sub_nav_item in nav_item.subnavigation %}
+              <li class="nav-item">
+                <a href="{{ sub_nav_item.link }}">{{ sub_nav_item.link_text }}</a>
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
     </ul>
     <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
   </nav>

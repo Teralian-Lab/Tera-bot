@@ -1,0 +1,50 @@
+.about-us__wrap {
+
+    @include lg {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.about-us__text {
+    margin: 0 auto 4rem;
+
+    @include md {
+        max-width: 70%;
+    }
+
+    h2 {
+        line-height: 1.65;
+
+        .icon {
+            vertical-align: middle;
+            margin: 0 2px 0 0;
+        }
+    }
+}
+
+.about-us__scheme {
+    width: 100%;
+    max-width: 320px;
+    height: 0;
+    padding-top: 105%;   // (img-height / img-width * container-width)
+    margin: 0 auto;
+    background-image: url(/Tera-bot/images/marketing-strategy-scheme-mobile.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media (orientation: portrait) {
+        padding-top: 165%;  // (img-height / img-width * container-width)
+    }
+
+    @include sm {
+        max-width: 100%;
+        padding-top: 18%;    // (img-height / img-width * container-width)
+        background-image: url(/Tera-bot/images/marketing-strategy-scheme.png);
+
+        @media (orientation: portrait) {
+            padding-top: 18%;   // (img-height / img-width * container-width)
+        }
+    }
+}

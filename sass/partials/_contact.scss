@@ -1,0 +1,52 @@
+.contact__form-wrap {
+    margin-top: 4rem !important;
+
+    @media screen and (min-width: 700px) {
+        margin: 2rem 0 auto 0 !important;
+    }
+
+    @include lg {
+        margin: 2rem !important;
+    }
+}
+
+.contact__form {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.contact__text {
+    text-align: center;
+
+    @media screen and (min-width: 700px) {
+        text-align: left;
+    }
+
+    .icon {
+        vertical-align: middle;
+    }
+    
+    h4 {
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+
+        @include md {
+            margin-bottom: 2rem;
+        }
+    }
+
+    p {
+        padding-top: 0.5rem;
+        line-height: 1.5;
+
+        + h4 {
+            margin-top: 3rem;
+
+            @include md {
+                margin-top: 4rem;
+            }
+        }
+    }
+}
