@@ -14,7 +14,7 @@ page_sections:
   - link: "#produkty"
     link_text: Produkty
     subnavigation:
-    - link: "#narozeninovy-bot"
+    - link: "#produkty"
       link_text: Narozeninový bot
     # - link: "#viral-giveaway-bot"
     #   link_text: Viral Giveaway bot
