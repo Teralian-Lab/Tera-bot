@@ -60,7 +60,7 @@ page_sections:
     <h4>Výhody oproti běžným marketingovým strategiím:</h4>
     <p>
       <ul>
-        <li>PRESS & PLAY Automatizovaná marketingová strategie díky chatbotovi</li>
+        <li>PLUG & PLAY Automatizovaná marketingová strategie díky chatbotovi</li>
         <li>Pravidelný přísun zákazníků po&nbsp;celý rok</li>
         <li>Zvýšení retence zákazníků, generování vracejících&nbsp;se zákazníků</li>
         <li>Chatbot umožnuje budování databáze zákazníků pro&nbsp;opakované cílení</li>
