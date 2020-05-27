@@ -89,7 +89,7 @@ page_sections:
     nebo máte dotaz ohledně našich služeb?</h4> <p>Kontaktujte nás prostřednictvím
     kontaktního formuláře a&nbsp;my se Vám ozveme co nejdříve.</p> <h4>Nemáte rádi
     formuláře?</h4> <p> Napište nám email nebo nám zavolejte.<br><br> <i class="icon
-    icon--phone"></i>&nbsp;<strong>730 962 170</strong><br> <i class="icon icon--mail"></i>&nbsp;<strong>anh.phthe@gmail.com</strong>
+    icon--phone"></i>&nbsp;<strong>730 962 171</strong><br> <i class="icon icon--mail"></i>&nbsp;<strong>anh.phthe@gmail.com</strong>
     </p>
 - template: simple-footer
   block: footer-1
