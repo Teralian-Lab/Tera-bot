@@ -3,7 +3,7 @@ title: TERA BOT
 author: TERA BOT
 email: anh.phthe@gmail.com
 description: Homepage of TERA BOT
-baseurl: "/Tera-bot"
+baseurl: ""
 url: ''
 defaults:
 - scope:
